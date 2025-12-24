@@ -27,7 +27,7 @@ func main() {
 		} else if input == "l" {
 			max = guess - 1
 		} else if input == "c" {
-			fmt.Println("Yay! I guessed your number!")
+			fmt.Println("Boom! I found the right number")
 			break
 		} else {
 			fmt.Println("Please type 'h', 'l', or 'c'")
